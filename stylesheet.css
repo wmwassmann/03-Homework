@@ -1,0 +1,64 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: rgb(56, 1, 1);   
+    padding: 70px;
+    width: 800px;
+    max-width: 100%;
+}
+
+
+.password {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 40px;
+}
+
+#pass {
+    background-color: grey;
+    display: block;
+}
+
+.btn {
+    font-size: 15px;
+    background-color: rgb(24, 1, 1);
+    color: white;
+    padding: 10px;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0 20px;
+    font-size: 25px;
+}
+
+
+h2 {
+    text-align: center;
+    margin: 10px 0 20px;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 400px); {
+    .result-container {
+        font-size: 14px;
+    }
+}
